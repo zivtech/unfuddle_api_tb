@@ -1,0 +1,8 @@
+; $Id$
+
+name = Unfuddle API Time Block
+description = Creates a block you can report time entries into Unfuddle 
+package = Unfuddle
+core = 6.x
+dependencies[] = unfuddle_api
+dependencies[] = unfuddle_api_import
