@@ -1,0 +1,15 @@
+<?php
+// $Id$
+
+/**
+ * @file Installation file for Unfuddle API.
+ */
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function unfuddle_api_tb_uninstall() {
+  // Remove the variables set by the module.
+
+  variable_del("unfuddle_api_tb_location");
+}
